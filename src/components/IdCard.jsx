@@ -12,7 +12,7 @@ class IdCard extends Component {
             <p> Gender: {this.props.gender}</p>
             <p> Height:{this.props.height}</p>
             <p> Birth: {this.props.birth.toDateString()}</p>
-            <img src={this.props.picture}/>
+            <img src={this.props.picture} alt=""/>
             </div>
 
         // lastName = String,
