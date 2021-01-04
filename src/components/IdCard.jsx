@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 // Iteration 1
 class IdCard extends Component {
     render() {
+
         return (
 
             <div className="idCard">
